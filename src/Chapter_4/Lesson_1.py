@@ -7,3 +7,11 @@ print(empty_list)
 print(numbers)
 print(names)
 print(mixed_list)
+
+# Truy xuất từng phân tử bằng index, phân tử đầu tiên có số thứ tự là 0
+names = ["An", "Hòa", "Nam", "Tài", "Hào"]
+print(names[0]) #output: An
+print(names[1]) #output: Hòa
+print(names[2]) #output: Nam
+print(names[3]) #output: Tài
+print(names[4]) #output: Hào
